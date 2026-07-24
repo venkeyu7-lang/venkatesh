@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gameprofolio.example/sitemap.xml
+Sitemap: https://venkeyu7-lang.github.io/venkatesh/sitemap.xml
