@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact GameProfolio for collaboration, portfolio features, and student creator opportunities." />
+    <meta name="robots" content="index, follow" />
+    <title>Contact | GameProfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">GameProfolio</a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html">Blog & Events</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell contact-page">
+      <section class="section contact-grid">
+        <div>
+          <p class="eyebrow">Let’s connect</p>
+          <h1>Ready to spotlight your student gaming brand?</h1>
+          <p class="hero-text">
+            Reach out for collaboration, event features, or profile showcases that feel modern and polished.
+          </p>
+          <ul class="contact-list">
+            <li>Email: hello@gameprofolio.com</li>
+            <li>Instagram: @gameprofolio</li>
+            <li>Discord: GameProfolio Network</li>
+          </ul>
+        </div>
+
+        <form id="contact-form" class="contact-card">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us about your goals" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> GameProfolio. Designed for student creators ready to level up.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

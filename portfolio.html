@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore GameProfolio student portfolio highlights, featured bios, embedded videos, and project showcases." />
+    <meta name="robots" content="index, follow" />
+    <title>Portfolio | GameProfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">GameProfolio</a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="blog.html">Blog & Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Student portfolio</p>
+          <h1>Meet the creators behind the glow.</h1>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="bio">
+              <h3>Maya Lane</h3>
+              <p>Competitive FPS streamer and community mentor.</p>
+            </div>
+            <div class="media-frame">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Maya Lane highlight" allowfullscreen></iframe>
+            </div>
+            <ul>
+              <li>Top 8 in regional varsity tournament</li>
+              <li>3.1K active Discord members</li>
+              <li>Game dev side-project: UI design system</li>
+            </ul>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="bio">
+              <h3>Jules Ortiz</h3>
+              <p>Strategy game analyst and indie game coder.</p>
+            </div>
+            <div class="media-frame">
+              <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Jules Ortiz gameplay" allowfullscreen></iframe>
+            </div>
+            <ul>
+              <li>Featured in campus esports the week</li>
+              <li>Built a turn-based combat prototype</li>
+              <li>Runs weekly coding streams for beginners</li>
+            </ul>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="bio">
+              <h3>Rina Sol</h3>
+              <p>Live event host and mobile game creator.</p>
+            </div>
+            <div class="media-frame">
+              <iframe src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Rina Sol showcase" allowfullscreen></iframe>
+            </div>
+            <ul>
+              <li>Hosted 12 school gaming showcases</li>
+              <li>Published three mini-game jams</li>
+              <li>Specializes in community-driven storytelling</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Project showcase</p>
+          <h2>Development work that complements the gameplay brand.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>Pixel Forge</h3>
+            <p>A student-built roguelite prototype with procedural arena design and neon UI.</p>
+          </article>
+          <article class="info-card">
+            <h3>StreamSync</h3>
+            <p>A dashboard app for tracking schedules, overlays, and audience engagement in real time.</p>
+          </article>
+          <article class="info-card">
+            <h3>DreamArena</h3>
+            <p>A tournament planner built for school clubs, including bracket generation and sign-ups.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> GameProfolio. Designed for student creators ready to level up.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
